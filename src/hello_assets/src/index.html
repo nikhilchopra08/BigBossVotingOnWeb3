@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>hello</title>
-    <base href="/" />
-    <link rel="icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main>
-      <img src="logo.png" alt="DFINITY logo" />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
-    </main>
-  </body>
+<html>
+
+<head>
+  <title>hello</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="Voting-for-Bigboss"><h1>Vote For Your Favourite Participant</h1></div>
+    <div class="divider"></div>
+    <form action="your_target_url" method="post">
+      <div class="A">
+        <img class="PlayerA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Photos-Munawar-Faruqui-snapped-in-Andheri-1_%28cropped%29.jpg/220px-Photos-Munawar-Faruqui-snapped-in-Andheri-1_%28cropped%29.jpg" alt="Image of Player A" />
+        <h2>Munawar Faruqui</h2>
+        <input id="PlayerA" type="submit" value="Vote Now" />
+        <div id="votedfoA"></div>
+      </div>
+      <div class="B">
+        <img class="PlayerB" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ankita-snapped-at-Baaghi-3-promotions.jpg/220px-Ankita-snapped-at-Baaghi-3-promotions.jpg" alt="Image of Player B" />
+        <h2>Ankita Lokhande</h2>
+        <input id="PlayerB" type="submit" value="Vote Now" />
+        <div id="votedfoB"></div>
+      </div>
+      <div class="C">
+        <img class="PlayerC" src="https://femina.wwmindia.com/mamaearth/2023/may/uk-rider-448x4481684498702.jpg?v=0.7" alt="Image of Player C" />
+        <h2>Anurag Dobhal </h2>
+        <input id="PlayerC" type="submit" value="Vote Now" />
+        <div id="votedfoC"></div>
+      </div>
+    </form>
+  </div>
+</body>
+
 </html>
